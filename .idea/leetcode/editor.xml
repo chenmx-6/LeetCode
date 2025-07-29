@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[115]不同的子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[115]不同的子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn115" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[115]不同的子序列.java" />
+              <option name="titleSlug" value="distinct-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[120]三角形最小路径和.java">
           <value>
             <LeetcodeEditor>
@@ -69,6 +80,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1695]删除子数组的最大得分.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1695]删除子数组的最大得分.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1695" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1695]删除子数组的最大得分.java" />
+              <option name="titleSlug" value="maximum-erasure-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[198]打家劫舍.java">
           <value>
             <LeetcodeEditor>
@@ -91,6 +113,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[300]最长递增子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[300]最长递增子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn300" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[300]最长递增子序列.java" />
+              <option name="titleSlug" value="longest-increasing-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3202]找出有效子序列的最大长度 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[3202]找出有效子序列的最大长度 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3202" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3202]找出有效子序列的最大长度 II.java" />
+              <option name="titleSlug" value="find-the-maximum-length-of-valid-subsequence-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[516]最长回文子序列.java">
           <value>
             <LeetcodeEditor>
@@ -110,6 +154,50 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[5]最长回文子串.java" />
               <option name="titleSlug" value="longest-palindromic-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[646]最长数对链.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[646]最长数对链.md" />
+              <option name="frontendQuestionId" value="leetcode.cn646" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[646]最长数对链.java" />
+              <option name="titleSlug" value="maximum-length-of-pair-chain" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[673]最长递增子序列的个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[673]最长递增子序列的个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn673" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[673]最长递增子序列的个数.java" />
+              <option name="titleSlug" value="number-of-longest-increasing-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[712]两个字符串的最小ASCII删除和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[712]两个字符串的最小ASCII删除和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn712" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[712]两个字符串的最小ASCII删除和.java" />
+              <option name="titleSlug" value="minimum-ascii-delete-sum-for-two-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[72]编辑距离.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[72]编辑距离.md" />
+              <option name="frontendQuestionId" value="leetcode.cn72" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[72]编辑距离.java" />
+              <option name="titleSlug" value="edit-distance" />
             </LeetcodeEditor>
           </value>
         </entry>
