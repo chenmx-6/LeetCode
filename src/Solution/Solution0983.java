@@ -7,6 +7,8 @@ public class Solution0983 {
         ints[0] = Math.min(costs[2], ints[0]);
         for (int i = 1; i < days.length; i++) {
             int cost = ints[i - 1] + ints[0];
+            boolean flag7=false;
+            boolean flag30=false;
             for (int j = i - 1; j >= -1; j--) {
                 int day;
                 int lastCost;
@@ -17,13 +19,21 @@ public class Solution0983 {
                     day = days[i] - days[j];
                     lastCost = ints[j];
                 }
-                if (day <= 30) {
+                if (day < 30) {
                     cost = Math.min(cost, lastCost + costs[2]);
                 }
-                if (day <= 7) {
+                if (day < 7) {
                     cost = Math.min(cost, lastCost + costs[1]);
                 }
-                if (day > 30) {
+                if(!flag7&&day>=7){
+                    cost = Math.min(cost, lastCost + costs[1]);
+                    flag7=true;
+                }
+                if(!flag30&&day>=30){
+                    cost = Math.min(cost, lastCost + costs[2]);
+                    flag30=true;
+                }
+                if (day > 30&&flag30) {
                     break;
                 }
             }
@@ -35,7 +45,7 @@ public class Solution0983 {
 
     public static void main(String[] args) {
         int[] days = {1,5,8,9,10,12,13,16,17,18,19,20,23,24,29};
-        int[] costs = { 3,12,54};
+        int[] costs = {3,12,54};
         Solution0983 solution0983 = new Solution0983();
         int i = solution0983.mincostTickets(days, costs);
         System.out.println(i);
