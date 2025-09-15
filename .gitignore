@@ -7,3 +7,4 @@ rebel.xml
 template/
 *.class
 out/
+*.xml
