@@ -18,4 +18,38 @@ public class Solution0001 {
         }
         return new int[0];
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public int[] twoSum2(int[] nums, int target) {
+        for (int i = 0; i < nums.length-1; i++) {
+            for (int j = i+1; j < nums.length; j++) {
+                if(nums[i]+nums[j]==target){
+                    int[] ints = new int[2];
+                    ints[0]=i;
+                    ints[1]=j;
+                    return ints;
+                }
+            }
+        }
+        return new int[2];
+    }
 }
