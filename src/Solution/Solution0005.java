@@ -42,4 +42,37 @@ public class Solution0005 {
         }
         return maxStr;
     }
+
+
+
+    public String longestPalindrome2(String s) {
+        char[] charArray = s.toCharArray();
+        String maxString=s.substring(0,1);
+        int length = s.length();
+        boolean[][] r = new boolean[length][length];
+        for (int i = 0; i < length; i++) {
+            r[i][i]=true;
+        }
+        for (int l = 2; l <= length; l++) {
+            for (int i = 0; i < length; i++) {
+                int j=i+l-1;
+                if(j>=length){
+                    break;
+                }
+                if(charArray[i]==charArray[j]){
+                    if(l==2){
+                        r[i][j]=true;
+                    }else{
+                        if(r[i+1][j-1]){
+                            r[i][j]=true;
+                        }
+                    }
+                }
+                if(r[i][j]){
+                    maxString=s.substring(i,j+1);
+                }
+            }
+        }
+        return maxString;
+    }
 }

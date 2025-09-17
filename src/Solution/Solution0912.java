@@ -10,16 +10,19 @@ public class Solution0912 {
     }
 
     public void quickSort(int[] nums,int left,int right){
+        if(left>=right){
+            return;
+        }
         int randomIndex = random.nextInt(right - left + 1) + left;
         int pivot = nums[randomIndex];
         swap(nums,left,randomIndex);
         int le=left+1;
         int ge=right;
         while(true){
-            if(le<=ge&&nums[le]<pivot){
+            while(le<=ge&&nums[le]<pivot){
                 le++;
             }
-            if(le<=ge&&nums[ge]>pivot){
+            while(le<=ge&&nums[ge]>pivot){
                 ge--;
             }
             if(le>=ge){
@@ -30,13 +33,13 @@ public class Solution0912 {
             ge--;
         }
         swap(nums,left,ge);
-        quickSort(nums,left,randomIndex-1);
-        quickSort(nums,randomIndex+1,right);
+        quickSort(nums,left,ge-1);
+        quickSort(nums,ge+1,right);
     }
 
     public void swap(int[]nums,int left ,int right){
         int temp=nums[left];
         nums[left]=nums[right];
-        nums[right]=left;
+        nums[right]=temp;
     }
 }
