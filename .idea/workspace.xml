@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 0830">
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0019.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0026.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0054.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0662.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/Solution0930.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/Solution1001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lcr/Lcr095.java" afterDir="false" />
+    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 1105">
+      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0141.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/Solution/Solution0001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/Solution/Solution0001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/domain/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/domain/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution/Solution0015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/Solution0015.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lcr/Lcr095.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lcr/Lcr095.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +334,7 @@
       <workItem from="1759927647301" duration="1248000" />
       <workItem from="1760272093258" duration="5604000" />
       <workItem from="1761987414811" duration="8530000" />
-      <workItem from="1762347366036" duration="4494000" />
+      <workItem from="1762347366036" duration="7755000" />
     </task>
     <task id="LOCAL-00001" summary="feat:commit">
       <option name="closed" value="true" />
@@ -400,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756535906419</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat:commit 1105">
+      <option name="closed" value="true" />
+      <created>1762352426329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762352426329</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -491,7 +491,8 @@
     <MESSAGE value="feat:commit 0730" />
     <MESSAGE value="feat:commit 0804" />
     <MESSAGE value="feat:commit 0830" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:commit 0830" />
+    <MESSAGE value="feat:commit 1105" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:commit 1105" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
