@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 1105">
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0141.java" afterDir="false" />
+    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 1108">
+      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0033.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0046.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0236.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lcr/Lcr095.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lcr/Lcr095.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution/Solution0300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/Solution0300.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +158,7 @@
     "Application.Solution0115.executor": "Run",
     "Application.Solution0139.executor": "Debug",
     "Application.Solution0188.executor": "Debug",
+    "Application.Solution0236.executor": "Debug",
     "Application.Solution0309.executor": "Run",
     "Application.Solution0354.executor": "Run",
     "Application.Solution0662.executor": "Debug",
@@ -180,7 +184,7 @@
       <recent name="Solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution0015">
+  <component name="RunManager" selected="Application.Solution0236">
     <configuration name="Solution0015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution.Solution0015" />
       <module name="leetCode" />
@@ -220,8 +224,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution0188" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution.Solution0188" />
+    <configuration name="Solution0236" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Solution0236" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -247,19 +251,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solution0236" />
       <item itemvalue="Application.Solution0015" />
       <item itemvalue="Application.Solution0662" />
       <item itemvalue="Application.Solution0095" />
       <item itemvalue="Application.Solution0096" />
-      <item itemvalue="Application.Solution0188" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution0236" />
         <item itemvalue="Application.Solution0015" />
         <item itemvalue="Application.Solution0662" />
         <item itemvalue="Application.Solution0095" />
         <item itemvalue="Application.Solution0096" />
-        <item itemvalue="Application.Solution0188" />
       </list>
     </recent_temporary>
   </component>
@@ -335,6 +339,9 @@
       <workItem from="1760272093258" duration="5604000" />
       <workItem from="1761987414811" duration="8530000" />
       <workItem from="1762347366036" duration="7755000" />
+      <workItem from="1762611495360" duration="6082000" />
+      <workItem from="1763356779625" duration="570000" />
+      <workItem from="1767367956815" duration="6425000" />
     </task>
     <task id="LOCAL-00001" summary="feat:commit">
       <option name="closed" value="true" />
@@ -400,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762352426329</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat:commit 1108">
+      <option name="closed" value="true" />
+      <created>1762611587815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762611587815</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -492,7 +507,8 @@
     <MESSAGE value="feat:commit 0804" />
     <MESSAGE value="feat:commit 0830" />
     <MESSAGE value="feat:commit 1105" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:commit 1105" />
+    <MESSAGE value="feat:commit 1108" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:commit 1108" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,13 +630,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution/Solution0015.java</url>
-          <line>64</line>
+          <line>26</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution/Solution0015.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="42" />
+          <url>file://$PROJECT_DIR$/src/Solution/Solution0236.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution/Solution0236.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
