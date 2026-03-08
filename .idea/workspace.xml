@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 1108">
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0033.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0046.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0232.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0236.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution/Solution0300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/Solution0300.java" afterDir="false" />
+    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 0307">
+      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,36 +145,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Solution0015.executor": "Debug",
-    "Application.Solution0072.executor": "Run",
-    "Application.Solution0095.executor": "Run",
-    "Application.Solution0096.executor": "Run",
-    "Application.Solution0115.executor": "Run",
-    "Application.Solution0139.executor": "Debug",
-    "Application.Solution0188.executor": "Debug",
-    "Application.Solution0236.executor": "Debug",
-    "Application.Solution0309.executor": "Run",
-    "Application.Solution0354.executor": "Run",
-    "Application.Solution0662.executor": "Debug",
-    "Application.Solution0673.executor": "Debug",
-    "Application.Solution0712.executor": "Run",
-    "Application.Solution0714.executor": "Run",
-    "Application.Solution0931.executor": "Run",
-    "Application.Solution1218.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Solution0015.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0072.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0095.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0096.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0115.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0139.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0188.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0236.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0309.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0354.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0662.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0673.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0712.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0714.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0931.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution1218.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Solution" />
@@ -342,6 +338,7 @@
       <workItem from="1762611495360" duration="6082000" />
       <workItem from="1763356779625" duration="570000" />
       <workItem from="1767367956815" duration="6425000" />
+      <workItem from="1772875014359" duration="5185000" />
     </task>
     <task id="LOCAL-00001" summary="feat:commit">
       <option name="closed" value="true" />
@@ -415,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762611587815</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat:commit 0307">
+      <option name="closed" value="true" />
+      <created>1772875040581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772875040581</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -508,7 +513,8 @@
     <MESSAGE value="feat:commit 0830" />
     <MESSAGE value="feat:commit 1105" />
     <MESSAGE value="feat:commit 1108" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:commit 1108" />
+    <MESSAGE value="feat:commit 0307" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:commit 0307" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
