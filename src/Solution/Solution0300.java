@@ -46,4 +46,24 @@ public class Solution0300 {
         return max;
     }
 
+
+    public int lengthOfLIS3(int[] nums) {
+        int[] dp = new int[nums.length];
+        int max=0;
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            int left=0;
+            int right=max;
+            while(left<right){
+                //1245
+                int mid=(left+right)/2;
+                if(dp[mid]<num)left=mid+1;
+                else right=mid;
+            }
+            dp[left]=num;
+            if(max==left)max++;
+        }
+        return max;
+    }
+
 }

@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:0917">
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0020.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0046.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0088.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/DidiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/HwTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/HwTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/HwTest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw/RangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/domain/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/domain/ListNode.class" afterDir="false" />
+    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 0307">
+      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +42,9 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$/../prj-cust-app" value="PREVIEW" />
-        <entry key="D:/XBOM3.3_V1/prj-cust-app" value="PREVIEW" />
-        <entry key="D:/branch_bugfix_v4.0/prj-cust-app" value="PREVIEW" />
-        <entry key="D:/xp_trunk/prj-cust-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../XBOM3.3_V1/prj-cust-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../branch_bugfix_v4.0/prj-cust-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../xp_trunk/prj-cust-app" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -102,7 +93,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="D:/apache-maven-3.8.1" />
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.1" />
         <option name="localRepository" value="D:\repository" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
@@ -154,36 +145,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HwTest4.executor": "Run",
-    "Application.Solution0015.executor": "Debug",
-    "Application.Solution0072.executor": "Run",
-    "Application.Solution0095.executor": "Run",
-    "Application.Solution0096.executor": "Run",
-    "Application.Solution0115.executor": "Run",
-    "Application.Solution0139.executor": "Debug",
-    "Application.Solution0146.executor": "Debug",
-    "Application.Solution0188.executor": "Debug",
-    "Application.Solution0309.executor": "Run",
-    "Application.Solution0354.executor": "Run",
-    "Application.Solution0673.executor": "Debug",
-    "Application.Solution0712.executor": "Run",
-    "Application.Solution0714.executor": "Run",
-    "Application.Solution0931.executor": "Run",
-    "Application.Solution1218.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/workSpace/xp-frd-assets/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Solution0015.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0072.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0095.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0096.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0115.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0139.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0188.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0236.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0309.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0354.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0662.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0673.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution0712.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0714.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution0931.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution1218.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }]]></component>
   <component name="RecentsManager">
@@ -191,9 +180,9 @@
       <recent name="Solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DidiTest">
-    <configuration name="DidiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw.DidiTest" />
+  <component name="RunManager" selected="Application.Solution0236">
+    <configuration name="Solution0015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Solution0015" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -218,8 +207,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HwTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw.HwTest5" />
+    <configuration name="Solution0096" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Solution0096" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -231,8 +220,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HwTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw.HwTest6" />
+    <configuration name="Solution0236" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Solution0236" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -244,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution0146" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution.Solution0146" />
+    <configuration name="Solution0662" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Solution0662" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -258,21 +247,29 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DidiTest" />
-      <item itemvalue="Application.HwTest6" />
-      <item itemvalue="Application.HwTest5" />
-      <item itemvalue="Application.HwTest4" />
-      <item itemvalue="Application.Solution0146" />
+      <item itemvalue="Application.Solution0236" />
+      <item itemvalue="Application.Solution0015" />
+      <item itemvalue="Application.Solution0662" />
+      <item itemvalue="Application.Solution0095" />
+      <item itemvalue="Application.Solution0096" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DidiTest" />
-        <item itemvalue="Application.HwTest6" />
-        <item itemvalue="Application.HwTest5" />
-        <item itemvalue="Application.HwTest4" />
-        <item itemvalue="Application.Solution0146" />
+        <item itemvalue="Application.Solution0236" />
+        <item itemvalue="Application.Solution0015" />
+        <item itemvalue="Application.Solution0662" />
+        <item itemvalue="Application.Solution0095" />
+        <item itemvalue="Application.Solution0096" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -332,22 +329,16 @@
       <workItem from="1754529326312" duration="3937000" />
       <workItem from="1754535572694" duration="10391000" />
       <workItem from="1755172290707" duration="3549000" />
-      <workItem from="1758008283368" duration="9298000" />
-      <workItem from="1758074195961" duration="13324000" />
-      <workItem from="1758269264185" duration="5762000" />
-      <workItem from="1758607442699" duration="56000" />
-      <workItem from="1760436934342" duration="651000" />
-      <workItem from="1761739044924" duration="999000" />
-      <workItem from="1761740290031" duration="303000" />
-      <workItem from="1761794058568" duration="164000" />
-      <workItem from="1761908298517" duration="2121000" />
-      <workItem from="1762132832484" duration="462000" />
-      <workItem from="1762253813263" duration="626000" />
-      <workItem from="1762254833760" duration="2144000" />
-      <workItem from="1762763477634" duration="2736000" />
-      <workItem from="1765438766017" duration="67000" />
-      <workItem from="1767787107435" duration="127000" />
-      <workItem from="1767787407844" duration="186000" />
+      <workItem from="1756535838736" duration="128000" />
+      <workItem from="1757940872975" duration="1245000" />
+      <workItem from="1759927647301" duration="1248000" />
+      <workItem from="1760272093258" duration="5604000" />
+      <workItem from="1761987414811" duration="8530000" />
+      <workItem from="1762347366036" duration="7755000" />
+      <workItem from="1762611495360" duration="6082000" />
+      <workItem from="1763356779625" duration="570000" />
+      <workItem from="1767367956815" duration="6425000" />
+      <workItem from="1772875014359" duration="5185000" />
     </task>
     <task id="LOCAL-00001" summary="feat:commit">
       <option name="closed" value="true" />
@@ -397,31 +388,39 @@
       <option name="project" value="LOCAL" />
       <updated>1754304044872</updated>
     </task>
-    <task id="LOCAL-00007" summary="feat:0915">
+    <task id="LOCAL-00007" summary="feat:commit 0830">
       <option name="closed" value="true" />
-      <created>1757932753832</created>
+      <created>1756535906419</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1757932753832</updated>
+      <updated>1756535906419</updated>
     </task>
-    <task id="LOCAL-00008" summary="feat:0916">
+    <task id="LOCAL-00008" summary="feat:commit 1105">
       <option name="closed" value="true" />
-      <created>1758019186564</created>
+      <created>1762352426329</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1758019186564</updated>
+      <updated>1762352426329</updated>
     </task>
-    <task id="LOCAL-00009" summary="feat:0917">
+    <task id="LOCAL-00009" summary="feat:commit 1108">
       <option name="closed" value="true" />
-      <created>1758099822815</created>
+      <created>1762611587815</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1758099822815</updated>
+      <updated>1762611587815</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat:commit 0307">
+      <option name="closed" value="true" />
+      <created>1772875040581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772875040581</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -505,16 +504,28 @@
       </map>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:commit" />
     <MESSAGE value="feat:commit 0717" />
     <MESSAGE value="feat:commit 0729" />
     <MESSAGE value="feat:commit 0730" />
     <MESSAGE value="feat:commit 0804" />
-    <MESSAGE value="feat:0915" />
-    <MESSAGE value="feat:0916" />
-    <MESSAGE value="feat:0917" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:0917" />
+    <MESSAGE value="feat:commit 0830" />
+    <MESSAGE value="feat:commit 1105" />
+    <MESSAGE value="feat:commit 1108" />
+    <MESSAGE value="feat:commit 0307" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:commit 0307" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,6 +680,26 @@
           <line>31</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution/Solution0662.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution/Solution0015.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution/Solution0236.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution/Solution0236.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -738,7 +769,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_301/src.zip!/java/lang/Integer.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8.0_301/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
@@ -776,7 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_301/src.zip!/java/util/List.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8.0_301/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1958">
           <caret line="112" selection-start-line="112" selection-end-line="112" />

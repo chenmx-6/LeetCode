@@ -62,10 +62,48 @@ public class Solution0015 {
         return lists;
     }
 
-    public static void main(String[] args) {
-        Solution0015 solution0015 = new Solution0015();
-        int[] nums = {0,0,0};
-        List<List<Integer>> lists = solution0015.threeSum(nums);
-        System.out.println(lists);
+
+
+    public List<List<Integer>> threeSum2(int[] nums) {
+        ArrayList<List<Integer>> lists = new ArrayList<>();
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length-2; ) {
+            int num1 = nums[i];
+            int left=i+1;
+            if(num1+nums[left]>0){
+                break;
+            }
+            int right=nums.length-1;
+            while(left<right){
+                int num2 = nums[left];
+                int total = num2 + nums[right] + num1;
+                if(total>0){
+                    right--;
+                }else if(total<0){
+                    left++;
+                }else{
+                    ArrayList<Integer> list = new ArrayList<>();
+                    list.add(num1);
+                    list.add(num2);
+                    list.add(nums[right]);
+                    lists.add(list);
+                    while(left<right&&num2==nums[left]){
+                        left++;
+                    }
+                }
+            }
+            while(i<nums.length&&num1==nums[i]){
+                i++;
+            }
+        }
+        return lists;
     }
+
+    public static void main(String[] args) {
+        int[] nums={-1,0,1,2,-1,-4};
+        Solution0015 solution0015 = new Solution0015();
+        solution0015.threeSum2(nums);
+    }
+
+
 }
