@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 0307">
-      <change afterPath="$PROJECT_DIR$/src/Solution/Solution0138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Node.java" afterDir="false" />
-    </list>
+    <list default="true" id="b584f211-6422-4eed-9a7d-610447562799" name="Default Changelist" comment="feat:commit 0307" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -339,6 +336,7 @@
       <workItem from="1763356779625" duration="570000" />
       <workItem from="1767367956815" duration="6425000" />
       <workItem from="1772875014359" duration="5185000" />
+      <workItem from="1773332631101" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="feat:commit">
       <option name="closed" value="true" />

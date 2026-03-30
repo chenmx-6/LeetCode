@@ -33,4 +33,24 @@ public class Solution0128 {
         }
         return max;
     }
+
+    public int longestConsecutive2(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        int maxLength=0;
+        for (int num : set) {
+            if(set.contains(num-1)){
+                continue;
+            }
+            int thisLength=1;
+            while(set.contains(num+1)){
+                thisLength++;
+                num++;
+            }
+            maxLength=Integer.max(thisLength,maxLength);
+        }
+        return maxLength;
+    }
 }
