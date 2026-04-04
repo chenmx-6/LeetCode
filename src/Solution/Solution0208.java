@@ -8,7 +8,7 @@ package Solution;
 public class Solution0208{
 
 }
-public class Trie {
+class Trie {
     private final Node root=new Node();
     private class Node{
         Node[] son=new Node[26];
