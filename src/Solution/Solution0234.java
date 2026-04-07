@@ -28,4 +28,35 @@ public class Solution0234 {
         }
         return result;
     }
+
+
+
+
+
+
+
+    public boolean isPalindrome2(ListNode head) {
+        ListNode fast=head,slow=head;
+        while(fast!=null){
+            fast=fast.next;
+            slow=slow.next;
+            if(fast!=null)fast=fast.next;
+        }
+        ListNode pre=null;
+        ListNode next=null;
+        while(slow!=null){
+            next=slow.next;
+            slow.next=pre;
+            pre=slow;
+            slow=next;
+        }
+        while(head!=null&&pre!=null){
+            if(head.val!= pre.val){
+                return false;
+            }
+            head=head.next;
+            pre=pre.next;
+        }
+        return true;
+    }
 }

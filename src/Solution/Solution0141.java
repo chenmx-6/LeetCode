@@ -23,4 +23,26 @@ public class Solution0141 {
         }
         return false;
     }
+
+
+
+
+
+
+
+
+    public boolean hasCycle2(ListNode head) {
+        ListNode fast=head,slow=head;
+        while(fast!=null){
+            fast=fast.next;
+            slow=slow.next;
+            if(fast!=null){
+                fast=fast.next;
+            }else{
+                return false;
+            }
+            if(fast==slow)return true;
+        }
+        return false;
+    }
 }
