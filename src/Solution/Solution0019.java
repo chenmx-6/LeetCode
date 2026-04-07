@@ -23,4 +23,22 @@ public class Solution0019 {
         cur.next=cur.next.next;
         return head.next;
     }
+
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+        ListNode fast=head,slow=head;
+        ListNode pre=new ListNode(0);
+        ListNode curHead=pre;
+        pre.next=head;
+        for (int i = 0; i < n; i++) {
+            fast=fast.next;
+        }
+        while(fast!=null){
+            fast=fast.next;
+            pre=slow;
+            slow=slow.next;
+        }
+        pre.next=slow.next;
+        return curHead.next;
+
+    }
 }
